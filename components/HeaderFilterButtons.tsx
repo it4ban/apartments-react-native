@@ -4,8 +4,6 @@ import {FlatList, StyleSheet, View} from 'react-native';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import {theme} from '../theme';
 import {Button} from '@ui-kitten/components';
-import {LISTMARGIN} from '../constants';
-import HeaderInput from './HeaderInput';
 
 const HeaderFilterButtons = () => {
   const filterButtons = [

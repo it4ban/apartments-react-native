@@ -1,19 +1,9 @@
 import React from 'react';
-import {
-  View,
-  Animated,
-  LayoutChangeEvent,
-  TouchableOpacity,
-  Platform,
-  FlatList,
-  StyleSheet,
-} from 'react-native';
+import {View, Animated, LayoutChangeEvent, StyleSheet} from 'react-native';
 
 import {theme} from '../theme';
-import {Button, Divider, Text} from '@ui-kitten/components';
-import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+import {Divider} from '@ui-kitten/components';
 import {HEADERHEIGHT, LISTMARGIN} from '../constants';
-import Row from './Row';
 import HeaderInput from './HeaderInput';
 import HeaderFilterButtons from './HeaderFilterButtons';
 import HeaderLogistics from './HeaderLogistics';

@@ -1,7 +1,6 @@
 import React from 'react';
 import {View} from 'react-native';
 
-import {LISTMARGIN} from '../constants';
 import {Property} from '../types/property';
 
 import ImageCarousel from './ImageCarousel';

@@ -43,6 +43,7 @@ const HeaderLogisticsButton = ({
     </TouchableOpacity>
   );
 };
+
 const HeaderLogistics = () => {
   return (
     <Row style={styles.container}>
